@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
       <div className='question-block'>
-        <p className='question'>Ти згодна пробачити нещасного програміста і стати його валентинкою?🥺🥺🥺</p>
+        <p className='question'>Ти згодна бути моєю валентинкою?😉😉😉</p>
       </div>
 
       <div className='buttons-block'>
