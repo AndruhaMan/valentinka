@@ -1,38 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #e1affd;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 20px;
+}
+
+.question-block {
+  background-color: #f0ceff;
+  /* width: 500px;
+  height: 200px; */
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 24px;
+  margin-top: 100px;
+}
+
+.question {
+  text-align: center;
+}
+
+.buttons-block {
+  margin-top: 50px;
+}
+
+.button-no {
+  width: 130px;
+  height: 50px;
+  background-color: #b042ff;
+  border: 3px solid #b042ff;
+  border-radius: 30px;
+  font-size: 20px;
+  position: absolute;
+  right: calc(40vw - 65px);
+  z-index: 100;
   color: white;
+  font-weight: 600;
+
+  &:hover {
+    background-color: #fff;
+    color: #b042ff;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+.button-yes {
+  width: 130px;
+  height: 50px;
+  background-color: #b042ff;
+  border: 3px solid #b042ff;
+  border-radius: 30px;
+  font-size: 20px;
+  position: absolute;
+  right: calc(60vw - 65px);
+  color: white;
+  font-weight: 600;
+
+  &:hover {
+    background-color: #fff;
+    color: #b042ff;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image {
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.phrase {
+  position: absolute;
+  bottom: 140px;
+  left: 180px;
+  background-color: #fff;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+  padding: 30px;
+}
+
+.saul {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.success-phrase {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.festival {
+  width: 400px;
+  position: absolute;
+  top: 0;
+}
+
+.festival-left {
+  left: 0;
+}
+
+.festival-right {
+  right: 0;
+  transform: scaleX(-1);
 }
