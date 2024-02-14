@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/valentinka/static/css/main.14f8901e.css",
-    "main.js": "/valentinka/static/js/main.114fc849.js",
+    "main.js": "/valentinka/static/js/main.5a758a10.js",
     "static/media/festival.png": "/valentinka/static/media/festival.bf7a7acaff3134abab1a.png",
     "static/media/bunny.png": "/valentinka/static/media/bunny.32cbcddc08d66c4003a2.png",
     "static/media/saul.jpg": "/valentinka/static/media/saul.507799573534e2532156.jpg",
     "index.html": "/valentinka/index.html",
     "main.14f8901e.css.map": "/valentinka/static/css/main.14f8901e.css.map",
-    "main.114fc849.js.map": "/valentinka/static/js/main.114fc849.js.map"
+    "main.5a758a10.js.map": "/valentinka/static/js/main.5a758a10.js.map"
   },
   "entrypoints": [
     "static/css/main.14f8901e.css",
-    "static/js/main.114fc849.js"
+    "static/js/main.5a758a10.js"
   ]
 }
